@@ -7,7 +7,6 @@ const FriendsListItem = ({ avatar, name, isOnline, id }) => (
     <span
       className={isOnline ? styles.statusEnable : styles.statusDisable}
     ></span>
-
     <img className={styles.avatar} src={avatar} alt={name} width="48" />
     <p className={styles.name}>{name}</p>
   </li>
